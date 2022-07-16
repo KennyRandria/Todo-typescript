@@ -18,7 +18,7 @@ function App() {
     const [doing,setDoing] = useState<cardItemItf[]>(new Array(1).fill(null)
         .map((item,index)=>(item)={
             title:`Doing ${index}`,
-            description:"Lorem ipsum",
+            description:"coloring background",
             status:cardItemStatusEnm.DOING}
         ));
     const [done,setDone] = useState<cardItemItf[]>(new Array(0));
